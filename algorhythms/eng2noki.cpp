@@ -24,10 +24,14 @@ string eng2noki(){
     getline(cin >> ws, word);
 
     for (int i = 0; i < word.length(); i++){
-        for (int j = 0; j < 10; j++){
-            for (int k = 0; k < 5; k++){
-                if(word[i] == keys[j][k][0]){
+        bool found = false;
+        for (int j = 0; j < 10 && !found; j++){
+            for (int k = 0; k < 5 && !found; k++){
+                if(word[i] == keys[j][k][0] && word[i] != ' '){
                     nokicode += to_string(j) + to_string(k+1);
+                }else if(word[i] == ' '){
+                    nokicode += "02";
+                    found = true;
                 }
             }
         }
