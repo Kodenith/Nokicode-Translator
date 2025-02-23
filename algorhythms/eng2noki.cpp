@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cctype>
 
 using namespace std;
 
@@ -22,7 +23,9 @@ string eng2noki(){
     nokicode = "";
     cout << "Enter the word: ";
     getline(cin >> ws, word);
-
+    for (char &c : word) {
+        c = tolower(c);
+    }
     for (int i = 0; i < word.length(); i++){
         bool found = false;
         for (int j = 0; j < 10 && !found; j++){
