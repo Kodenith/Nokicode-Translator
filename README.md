@@ -22,6 +22,10 @@ So if you want to say "Hello World" in **Nokicode**, you'd say:<bn>
 
 (**43** means a press on the **4** button **3** times, which makes an H. And so on for every 2 numbers...)
 
+## What is a Nokiloop?
+a **Nokiloop** is a result of putting **Nokicode** into the **English to Nokicode** Translator, resulting in a more complex nokicode. 
+This can be done as many times as you want, this tool also has a translator for that so you can decode it quickly :D
+
 ## Have fun using this thingamajig!
 
 I Had tons of fun making this and i hope you have tons of fun using it 🤩🤩🤩
